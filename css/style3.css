@@ -1,0 +1,128 @@
+.navbar{
+  width: 100%;
+  height:70px;
+}
+.navbar-brand{
+  font-style: italic;
+}
+.navbar-nav{
+  font-family: serif;
+  font-size: 18px;
+}
+.nav-item{
+  padding-right: 2rem;
+}
+
+
+.largediv{
+  font-family: sans-serif;
+}
+.cover{
+  background: #ffff;
+  opacity: 0.9;
+  width: 100%;
+  padding: 100px 0px;
+  background-color: rgb(153, 204, 255);
+}
+.contact-info{
+  padding: 110px 30px;
+}
+h6{
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+.contact-info p{
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+.contactForm{
+  padding: 40px 30px 0px 40px;
+}
+.contactForm:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 2;
+  bottom: 0;
+  left: 0;
+  border-radius: 2px;
+  box-shadow: none;
+  width: 600px;
+
+}
+.contactForm input{
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  border: 2px solid transparent;
+  border-bottom-color: rgba( 0, 0, 0, 0.2);
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 55px;
+}
+.contactForm textarea{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  border: 2px solid transparent;
+  border-bottom-color: rgba( 255, 255, 255);
+}
+.contactForm input:placeholder{
+  color: rgb(255, 255,255 );
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.contactForm textarea:placeholder{
+  color: rgb(255, 255,255 );
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.contactForm input:hover, .contactForm input:focus{
+  outline: none;
+  box-shadow: none;
+  border: 2px solid transparent;
+
+}
+.contactForm textarea:hover, .contactForm textarea:focus{
+  outline: none;
+  box-shadow: none;
+  border: 2px solid transparent;
+  border-bottom-color: rgb(65, 180, 191);
+}
+.button{
+  text-align: center;
+  padding: 8px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  color:rgb(255, 255, 255);
+  box-shadow: 1px 10px 10px 0px rgba(0,0,0,0.2);
+  font-weight: 600;
+  background: rgb(65, 180, 191);
+  transition: 0.2s;
+  border: 1px solid rgb(65, 180, 191);
+  margin-top: 10px;
+}
+.button:hover{
+  cursor: pointer;
+  background: #196d75;
+}
+.button:focus{
+  outline: none;
+}
+.socialbuttons li{
+	display: inline;
+}
+.lasttext{
+  text-align: center;
+   font-size: 12px;
+}
+.lastdiv{
+  background-color: rgb(153, 204, 255);
+}
